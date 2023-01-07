@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    /* background-color: rgb(249, 224, 201); */
+    background-color: rgb(255, 255, 255);
+}
+.navbar li a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    
+}
+.navbar li a:hover{
+    background-color: rgb(113, 89, 89);
+    border-radius: 20px;
+}
+.navbar ul {
+    margin-left: 65%;
+    
+}
+.navbar-header a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10vh;
+}
+.navbar{
+    background-color: rgb(28, 22, 22);
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0%;
+    position: fixed;
+   top: 0;
+  width: 100%;
+  margin-top: 0;
+  /* padding: 16px; */
+  /* padding-top: 60px; */
+}
+.container{
+   display: flex;
+   /* border: 2px solid red; */
+   margin-left: 0;
+   margin-right: 0;
+   margin-top: 15vh;
+   height: 100%;
+   width: 100%;
+
+
+}
+.cont-1{
+  /* border: 2px solid black; */
+  margin-left: 10vh;
+  margin-right: 174px;
+  padding: 42px 66px;
+  
+}
+.cont-1 h1{
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.cont-1 p{
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+
+.cont-2{
+  /* border: 2px solid black; */
+  margin-left: 20px;
+  margin-right: 10vh;
+}
+
+
+.cont-2 img{
+    width: 88%;
+    height: 88%;
+    border-radius: 40px;
+}
+
+.cont-3 img{
+    width: 80%;
+    height: 60%;
+   
+    margin-bottom: 20vh;
+    margin-left: 18vh;
+    border-radius: 40px;
+}
+.cont-4 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 20vh;
+    margin-top: 20px;
+}
+.container-1{
+    display: flex;
+    width: 100%;
+    margin-top: 10vh;
+    
+ }
+ .cont-4{
+    margin-left: 30vh;
+    
+ }
+.cat li{
+    display: flex;
+    list-style-type: none;
+ }
+.cat li a{
+   
+        border: 1px solid rgb(176, 229, 255);
+        background: linear-gradient(180deg,rgba(0,0,0,0) 0%,#000000 100%);
+        padding: 10px 14px;
+        border-radius: 20px;
+        background-color: rgb(80, 191, 227);
+        margin-top: 65px;
+ }
+ .cat li a:hover{
+    transform: scale(1.2);
+  transition: 0.6s;
+}
+.container-2 h1{
+    text-align: center;
+    margin-bottom: 20vh;
+    font-size: 50px;
+    font-weight: bolder;
+}
